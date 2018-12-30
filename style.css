@@ -1,0 +1,32 @@
+.container  {
+    font-family: Segoe UI, sans-serif;
+    margin: auto;
+    width: 50%;
+    margin-top: 68px;
+    text-align: center;
+}
+
+p.description {
+    margin-bottom: 20px;
+}
+
+.button {
+    margin: auto;
+    display: block;
+    padding: 10px 13px;
+    border: 1px solid #68c3d4;
+    background-color: #337ab7;
+    color: #FFF;
+    width: 90px;
+    border-radius: 5px;
+} .button:hover {
+    background-color: #286091;
+    cursor: pointer;
+} .button:active:hover {
+    background-color: #214e75;
+}
+
+span.note {
+    font-size: 11px;
+    color: #333;
+}

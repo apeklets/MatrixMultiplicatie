@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oefen Matrixes</title>
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <script src="mmgenerator.js" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Matrix Generator</h1>
+        <p class="description">Genereer willekeurige* matrices om te oefenen met matrixmultiplicatie</p>
+        <div class="math">
+            <p id="problem-container">
+                
+            </p>
+            <p id="solution-container"></p>
+        </div>
+        <a class="button generate">Genereer</a>
+        <a class="button solve">Antwoord</a><br>
+        <span class="note">
+            * Elke index is een geheel getal uit het interval [-9,9].<br>
+            De afmetingen van de matrices liggen tussen de 2x1/1x2 en 5x5.<br>
+            Verder heeft elke index een 11% kans om een 1 te zijn, 10% kans om een 0 te zijn en een 9% kans om een -1 te zijn.
+        </span>
+    </div>
+</body>
+</html>
